@@ -1,0 +1,7 @@
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" "powershell.exe"
+
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" "whoami.exe"
+
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" "ipconfig.exe"
